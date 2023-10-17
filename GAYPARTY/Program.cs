@@ -5,25 +5,35 @@ public class MainClass
 {
     public static void Main()
     {
-        /*string cardNumber = Console.ReadLine();
-        int[] intcard = new int[cardNumber.Length];
-        for (int i = 0; i < cardNumber.Length; i++)
+        string num1 = Console.ReadLine();
+        string num2 = Console.ReadLine();
+        int[] intnum = new int[num1.Length];
+        int[] intnum1 = new int[num2.Length];
+
+        for (int i = 0; i < num1.Length; i++)
         {
-            int n = (int)char.GetNumericValue(cardNumber[i]);
-            int[] intcard = n;
-
-            Console.WriteLine(intcard[i]);
-
-
-        */
-        string s = "124124124";
-        int[] ints = new int[s.Length];
-        for (int i = 0; i < ints.Length; i++)
-        {
-            int n = (int)char.GetNumericValue(s[i]);
-            ints[i] = n;
-            Console.WriteLine(
+            int n = (int)char.GetNumericValue(num1[i]);
+            intnum[i] = n;
+            Console.Write(intnum[i]);
+            
+            
         }
+        bool uniquereq = false;
+        foreach( int n in intnum)
+        {
+            if (intnum.Contains(n))
+                uniquereq = false;
+            else uniquereq = true;
+        }
+        for (int j = 0; j < intnum.Length; j++)
+        {
+            if (uniquereq = true)
+                Console.WriteLine(intnum[j]);
+            else
+                continue;
+        
+        }
+
     }
 }
 
