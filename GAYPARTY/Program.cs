@@ -3,9 +3,9 @@ using System.Globalization;
 
 public class MainClass
 {
-    public static void Main()
+    public static void Main(string[] args)
     {
-        string num1 = Console.ReadLine();
+        /*string num1 = Console.ReadLine();
         string num2 = Console.ReadLine();
         int[] intnum = new int[num1.Length];
         int[] intnum1 = new int[num2.Length];
@@ -15,11 +15,11 @@ public class MainClass
             int n = (int)char.GetNumericValue(num1[i]);
             intnum[i] = n;
             Console.Write(intnum[i]);
-            
-            
+
+
         }
         bool uniquereq = false;
-        foreach( int n in intnum)
+        foreach (int n in intnum)
         {
             if (intnum.Contains(n))
                 uniquereq = false;
@@ -31,9 +31,22 @@ public class MainClass
                 Console.WriteLine(intnum[j]);
             else
                 continue;
-        
-        }
+
+        }*/
+        string line = Console.ReadLine();
+
+
+        // Ваш код       
+
+
+
+
+
 
     }
+
+
+
+
 }
 

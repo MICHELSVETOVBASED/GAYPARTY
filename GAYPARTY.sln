@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAYPARTY", "GAYPARTY\GAYPARTY.csproj", "{9F5F888E-8AAA-42C5-9E5B-69AB72EE498B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GAYPARTY", "GAYPARTY\GAYPARTY.csproj", "{9F5F888E-8AAA-42C5-9E5B-69AB72EE498B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYPROJECT6666", "MYPROJECT6666\MYPROJECT6666.csproj", "{58BC4901-3436-4DA5-B092-E13546B1154C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9F5F888E-8AAA-42C5-9E5B-69AB72EE498B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F5F888E-8AAA-42C5-9E5B-69AB72EE498B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F5F888E-8AAA-42C5-9E5B-69AB72EE498B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BC4901-3436-4DA5-B092-E13546B1154C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BC4901-3436-4DA5-B092-E13546B1154C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BC4901-3436-4DA5-B092-E13546B1154C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BC4901-3436-4DA5-B092-E13546B1154C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
