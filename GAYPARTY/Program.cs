@@ -53,6 +53,7 @@ public class MainClass
         {
             Console.WriteLine("О, отличник появился! На олимпиаду пойдешь");
 
+
         }
     }
         
