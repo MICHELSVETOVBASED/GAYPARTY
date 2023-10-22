@@ -1,7 +1,4 @@
-﻿using System;
-using System.Diagnostics.CodeAnalysis;
-
-public class MainClass
+﻿public static bool IsTextIncludesChar(string text)
 {
     public static void Main()
     {
